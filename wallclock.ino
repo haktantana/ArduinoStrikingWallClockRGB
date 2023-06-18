@@ -15,7 +15,7 @@ void loop()
     
   for(int j=1;j<13;j++){
     if(i!=j){
-    //digitalWrite(j, HIGH);
+    
       switch(j) {
   			case 1:
         		analogWrite(j,255);
@@ -80,6 +80,4 @@ void loop()
   }
   digitalWrite(i, LOW);
 }
-  tone(13,261);
-  noTone(13);
 }
